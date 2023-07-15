@@ -1,0 +1,1965 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &587568576083094411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6565714790087494593}
+  - component: {fileID: 3175448716374545138}
+  m_Layer: 0
+  m_Name: Heal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6565714790087494593
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587568576083094411}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629792435488053238}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3175448716374545138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587568576083094411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e27c7bad9c9764b9debf3aa3ef3947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u041B\u0435\u0447\u0435\u043D\u0438\u0435"
+  description: "\n\xAB\u041E \u0441\u0432\u0435\u0442 \u0441\u0432\u044F\u0442\u043E\u0439,
+    \u0434\u0430\u0440\u0443\u0439 \u043C\u043D\u0435 \u0438\u0441\u0446\u0435\u043B\u0435\u043D\u0438\u0435!\xBB
+    \u2014 \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E, \u0438\u043C\u0435\u043D\u043D\u043E
+    \u044D\u0442\u043E \u0434\u0443\u043C\u0430\u043B \u043C\u043E\u043D\u0430\u0445
+    \u0441\u043E\u0437\u0434\u0430\u0432\u0448\u0438\u0439 \u044D\u0442\u043E \u0437\u0430\u043A\u043B\u0438\u043D\u0430\u043D\u0438\u0435,
+    \u043D\u043E \u044D\u0442\u043E\u0433\u043E \u043C\u044B \u043D\u0438\u043A\u043E\u0433\u0434\u0430
+    \u043D\u0435 \u0443\u0437\u043D\u0430\u0435\u043C."
+  skillLevel: 2
+  type: 0
+  unlocked: 0
+  requiredActiveSkills: []
+  requiredPassiveSkills: []
+  ignoreDef: 0
+  physicalDamage: 0
+  magicalDamage: 0
+  HPAlteration: 40
+  MPAlteration: -20
+  physDmgIncrease: 0
+  magicDmgIncrease: 0
+  moveNumber: 0
+  designation: 
+  physDmgPerMove: 0
+  magicDmgPerMove: 0
+  physDmgDefDecrease: 0
+  magicDmgDefDecrease: 0
+--- !u!1 &1006888718999745027
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6525979415118110738}
+  - component: {fileID: 8494491886230591496}
+  m_Layer: 0
+  m_Name: PoisonWeapon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6525979415118110738
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006888718999745027}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629792435488053238}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8494491886230591496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006888718999745027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e27c7bad9c9764b9debf3aa3ef3947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u042F\u0434\u043E\u0432\u0438\u0442\u043E\u0435 \u041E\u0440\u0443\u0436\u0438\u0435"
+  description: "\n\u041A\u0430\u043A \u0441\u043B\u0435\u0434\u0443\u0435\u0442 \u0441\u043C\u0430\u0436\u044C
+    \u043A\u043B\u0438\u043D\u043E\u043A \u0441\u043F\u0435\u0446\u0438\u0430\u043B\u044C\u043D\u043E
+    \u0438\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u044B\u043C \u044F\u0434\u043E\u043C,
+    \u043F\u043E\u0441\u043B\u0435 \u0447\u0435\u0433\u043E \u043D\u0430\u043D\u0435\u0441\u0438
+    \u0443\u0434\u0430\u0440 \u043F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A\u0443,
+    \u044D\u0442\u043E \u0438 \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0438\u0442
+    \u0442\u0435\u0431\u0435 \u043B\u0451\u0433\u043A\u0443\u044E \u043F\u043E\u0431\u0435\u0434\u0443."
+  skillLevel: 2
+  type: 2
+  unlocked: 0
+  requiredActiveSkills: []
+  requiredPassiveSkills: []
+  ignoreDef: 0
+  physicalDamage: 10
+  magicalDamage: 0
+  HPAlteration: 0
+  MPAlteration: 0
+  physDmgIncrease: 10
+  magicDmgIncrease: 0
+  moveNumber: 5
+  designation: "\u0421\u043B\u0430\u0431\u043E\u0441\u0442\u044C"
+  physDmgPerMove: 0
+  magicDmgPerMove: 0
+  physDmgDefDecrease: 15
+  magicDmgDefDecrease: 15
+--- !u!1 &1262940800972486531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5823430429095635899}
+  - component: {fileID: 3691867197386669996}
+  m_Layer: 0
+  m_Name: BowSnipe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5823430429095635899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262940800972486531}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629792435488053238}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3691867197386669996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262940800972486531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e27c7bad9c9764b9debf3aa3ef3947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u0421\u0442\u0440\u0435\u043B\u044C\u0431\u0430 \u0438\u0437 \u041B\u0443\u043A\u0430"
+  description: "\n\u0421\u043E\u0441\u0440\u0435\u0434\u043E\u0442\u043E\u0447\u044C\u0441\u044F,
+    \u043F\u0440\u0438\u0446\u0435\u043B\u044C\u0441\u044F \u0438 \u043E\u0442\u043F\u0443\u0441\u0442\u0438
+    \u0442\u0435\u0442\u0435\u0432\u0443. \u0422\u043E\u043B\u044C\u043A\u043E \u0442\u0430\u043A
+    \u043C\u043E\u0436\u043D\u043E \u043F\u043E\u043F\u0430\u0441\u0442\u044C \u0432
+    \u0446\u0435\u043B\u044C, \u0445\u043E\u0442\u044F \u0438 \u0431\u0435\u0437
+    \u043D\u0435\u043A\u043E\u0442\u043E\u0440\u043E\u0439 \u0434\u043E\u043B\u0438
+    \u0443\u0434\u0430\u0447\u0438 \u0432\u0441\u0451 \u0440\u0430\u0432\u043D\u043E
+    \u043D\u0435 \u043E\u0431\u043E\u0439\u0442\u0438\u0441\u044C."
+  skillLevel: 1
+  type: 2
+  unlocked: 0
+  requiredActiveSkills: []
+  requiredPassiveSkills: []
+  ignoreDef: 1
+  physicalDamage: 20
+  magicalDamage: 0
+  HPAlteration: 0
+  MPAlteration: 0
+  physDmgIncrease: 0
+  magicDmgIncrease: 0
+  moveNumber: 0
+  designation: 
+  physDmgPerMove: 0
+  magicDmgPerMove: 0
+  physDmgDefDecrease: 0
+  magicDmgDefDecrease: 0
+--- !u!1 &1598061036352770501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2673765296411560843}
+  - component: {fileID: 905351620974666222}
+  m_Layer: 0
+  m_Name: WeaponMastery
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2673765296411560843
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598061036352770501}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629792435488053238}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &905351620974666222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598061036352770501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87fb96b2dbb862e4ca2ede1ceb14a699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u0412\u043B\u0430\u0434\u0435\u043D\u0438\u0435 \u041E\u0440\u0443\u0436\u0438\u0435\u043C"
+  description: "\n\u041C\u0435\u0447 \u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0441\u044F
+    \u0441\u043B\u043E\u0432\u043D\u043E \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0435\u043D\u0438\u0435\u043C
+    \u0442\u0432\u043E\u0435\u0439 \u0440\u0443\u043A\u0438, \u0443\u0434\u0430\u0440\u044B
+    \u2014 \u0442\u043E\u0447\u043D\u0435\u0435, \u0430 \u0432\u0435\u0441 \u0441\u0435\u0433\u043E
+    \u043C\u0435\u0442\u0430\u043B\u0438\u0447\u0435\u0441\u043A\u043E\u0433\u043E
+    \u043F\u0440\u0435\u0434\u043C\u0435\u0442\u0430 \u2014 \u0441\u043E\u0432\u0441\u0435\u043C
+    \u043D\u0435 \u043E\u0449\u0443\u0442\u0438\u043C\u044B\u043C."
+  skillLevel: 1
+  type: 1
+  unlocked: 0
+  requiredActiveSkills: []
+  requiredPassiveSkills: []
+  mainPhysDmgIncrease: 10
+  mainMagicDmgIncrease: 0
+  mainPhysDefIncrease: 0
+  mainMagicDefIncrease: 0
+  escapeChanceIncrease: 0
+  unlockChestChanceIncrease: 0
+  addDmgToPhysDmgPerMove: 0
+  addDmgToMagicDmgPerMove: 0
+  unlockSpecialWarriorSkill: 0
+  unlockSpecialWizardSkill: 0
+  unlockSpecialThiefSkill: 0
+--- !u!1 &1739327468709290404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3076431501072326244}
+  - component: {fileID: 1132058788580197163}
+  m_Layer: 0
+  m_Name: Overload
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3076431501072326244
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739327468709290404}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629792435488053238}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1132058788580197163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739327468709290404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e27c7bad9c9764b9debf3aa3ef3947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u041F\u0435\u0440\u0435\u0433\u0440\u0443\u0437\u043A\u0430"
+  description: "\n\u041D\u0435\u0445\u0432\u0430\u0442\u0430\u0435\u0442 \u0447\u0443\u0442\u044C-\u0447\u0443\u0442\u044C
+    \u0443\u0440\u043E\u043D\u0430 \u0434\u043E \u043F\u043E\u0431\u0435\u0434\u044B?
+    \u0412\u0430\u043C \u043F\u043E\u043C\u043E\u0436\u0435\u0442 \u0443\u0441\u0438\u043B\u044F\u044E\u0449\u0430\u044F
+    \u043F\u0435\u0440\u0435\u0433\u0437\u0443\u043A\u0430, \u0432\u043E\u0442 \u0442\u043E\u043B\u044C\u043A\u043E
+    \u043D\u0430 \u0435\u0451 \u043F\u0440\u0438\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435
+    \u043C\u043E\u0436\u0435\u0442 \u043F\u043E\u0442\u0440\u0435\u0431\u043E\u0432\u0430\u0442\u044C\u0441\u044F
+    \u0432\u0440\u0435\u043C\u044F. "
+  skillLevel: 1
+  type: 0
+  unlocked: 0
+  requiredActiveSkills: []
+  requiredPassiveSkills: []
+  ignoreDef: 0
+  physicalDamage: 0
+  magicalDamage: 0
+  HPAlteration: 0
+  MPAlteration: -8
+  physDmgIncrease: 0
+  magicDmgIncrease: 15
+  moveNumber: 0
+  designation: 
+  physDmgPerMove: 0
+  magicDmgPerMove: 0
+  physDmgDefDecrease: 0
+  magicDmgDefDecrease: 0
+--- !u!1 &2317323527606024684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8529502685667315340}
+  - component: {fileID: 4572754249368154648}
+  m_Layer: 0
+  m_Name: Backstab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8529502685667315340
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2317323527606024684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629792435488053238}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4572754249368154648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2317323527606024684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87fb96b2dbb862e4ca2ede1ceb14a699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u0423\u0434\u0430\u0440 \u0432 \u0421\u043F\u0438\u043D\u0443"
+  description: "\u041E\u0441\u043E\u0431\u044B\u0439 \u043D\u0430\u0432\u044B\u043A.\n\u0410\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0438
+    \u0432\u043A\u043B\u044E\u0447\u0430\u0435\u0442\u0441\u044F, \u0435\u0441\u043B\u0438
+    \u043F\u0435\u0440\u0432\u044B\u0439 \u0445\u043E\u0434 \u0434\u043E\u0441\u0442\u0430\u043B\u0441\u044F
+    \u0438\u0433\u0440\u043E\u043A\u0443.\n\u041F\u043E\u0432\u044B\u0448\u0430\u0435\u0442
+    \u043D\u0430 150% \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u0439 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+    \u0443\u0440\u043E\u043D \u043D\u0430\u043D\u0435\u0441\u0451\u043D\u043D\u044B\u0439
+    \u0432\u0440\u0430\u0433\u0443.\n\u0421 20% \u0432\u0435\u0440\u043E\u044F\u0442\u043D\u043E\u0441\u0442\u044C\u044E
+    \u0433\u0430\u0440\u0430\u043D\u0442\u0438\u0440\u0443\u0435\u0442 \u0443\u043A\u043B\u043E\u043D\u0435\u043D\u0438\u0435
+    \u043E\u0442 \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0435\u0433\u043E \u0443\u0434\u0430\u0440\u0430.\n\n\u041C\u043D\u043E\u0433\u0438\u0435
+    \u0434\u0443\u043C\u0430\u044E\u0442, \u0447\u0442\u043E \u0443\u0434\u0430\u0440
+    \u0432 \u0441\u043F\u0438\u043D\u0443 \u044D\u0442\u043E \u043D\u0438\u0437\u043A\u043E,
+    \u043E\u0434\u043D\u0430\u043A\u043E \u043D\u0430\u0441\u0442\u043E\u044F\u0449\u0438\u0439
+    \u0432\u043E\u0440 \u0441 \u044D\u0442\u0438\u043C \u043D\u0435 \u0441\u043E\u0433\u043B\u0430\u0441\u0435\u043D."
+  skillLevel: 3
+  type: 2
+  unlocked: 0
+  requiredActiveSkills:
+  - {fileID: 8494491886230591496}
+  requiredPassiveSkills:
+  - {fileID: 6255535917168300215}
+  mainPhysDmgIncrease: 0
+  mainMagicDmgIncrease: 0
+  mainPhysDefIncrease: 0
+  mainMagicDefIncrease: 0
+  escapeChanceIncrease: 0
+  unlockChestChanceIncrease: 0
+  addDmgToPhysDmgPerMove: 0
+  addDmgToMagicDmgPerMove: 0
+  unlockSpecialWarriorSkill: 0
+  unlockSpecialWizardSkill: 0
+  unlockSpecialThiefSkill: 1
+--- !u!1 &2691437081396821555
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6854804807021761374}
+  - component: {fileID: 4441034909559980313}
+  m_Layer: 0
+  m_Name: Vortex
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6854804807021761374
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2691437081396821555}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629792435488053238}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4441034909559980313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2691437081396821555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e27c7bad9c9764b9debf3aa3ef3947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u0412\u0438\u0445\u0440\u044C"
+  description: "\n\u041A\u0440\u0443\u0447\u0443,\u0432\u0435\u0440\u0447\u0443,
+    \u0437\u0430\u0440\u0443\u0431\u0438\u0442\u044C \u0442\u0435\u0431\u044F \u0445\u043E\u0447\u0443.
+    \u041D\u0443 \u0430 \u0435\u0441\u043B\u0438 \u043D\u0435 \u043F\u043E\u043B\u0443\u0447\u0438\u0442\u0441\u044F,
+    \u0442\u043E \u0445\u043E\u0442\u044F \u0431\u044B \u044D\u0444\u0444\u0435\u043A\u0442
+    \u043E\u0442 \u044D\u0442\u043E\u0439 \u0442\u0435\u0445\u043D\u0438\u043A\u0438
+    \u0431\u0443\u0434\u0435\u0442 \u043F\u0440\u0438\u043B\u0438\u0447\u043D\u044B\u0439."
+  skillLevel: 2
+  type: 1
+  unlocked: 0
+  requiredActiveSkills:
+  - {fileID: 4411632319578767364}
+  requiredPassiveSkills: []
+  ignoreDef: 0
+  physicalDamage: 40
+  magicalDamage: 0
+  HPAlteration: 0
+  MPAlteration: 0
+  physDmgIncrease: 0
+  magicDmgIncrease: 0
+  moveNumber: 2
+  designation: "\u0420\u0432\u0430\u043D\u044B\u0435 \u0440\u0430\u043D\u044B"
+  physDmgPerMove: 4
+  magicDmgPerMove: 0
+  physDmgDefDecrease: 0
+  magicDmgDefDecrease: 0
+--- !u!1 &2716190870011575407
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1800445548236338901}
+  - component: {fileID: 8636897041849988873}
+  m_Layer: 0
+  m_Name: AvatarTheElementalMaster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1800445548236338901
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2716190870011575407}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629792435488053238}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8636897041849988873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2716190870011575407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87fb96b2dbb862e4ca2ede1ceb14a699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u041F\u043E\u0432\u0435\u043B\u0438\u0442\u0435\u043B\u044C \u0421\u0442\u0438\u0445\u0438\u0439"
+  description: "\u041D\u0435\u0431\u043E\u043B\u044C\u0448\u043E\u0435 \u043F\u043E\u0432\u044B\u0448\u0435\u043D\u0438\u0435
+    \u0443\u0440\u043E\u043D\u0430 \u043E\u0442 \u043C\u0430\u0433\u0438\u0447\u0435\u0441\u043A\u0438\u0445
+    \u044D\u0444\u0444\u0435\u043A\u0442\u043E\u0432\n\n\u041A\u043E\u0433\u0434\u0430-\u0442\u043E
+    \u0434\u0430\u0432\u043D\u043E \u0447\u0435\u0442\u044B\u0440\u0435 \u043D\u0430\u0440\u043E\u0434\u0430
+    \u0436\u0438\u043B\u0438 \u0432 \u043C\u0438\u0440\u0435, \u043D\u043E \u0432\u0441\u0451
+    \u0438\u0437\u043C\u0435\u043D\u0438\u043B\u043E\u0441\u044C... \u0442\u0430\u043A
+    \u0441\u0442\u043E\u043F \u044D\u0442\u043E \u0436\u0435 \u0441\u043E\u0432\u0435\u0440\u0448\u0435\u043D\u043D\u043E
+    \u0438\u0437 \u0434\u0440\u0443\u0433\u043E\u0439 \u043E\u043F\u0435\u0440\u044B..."
+  skillLevel: 4
+  type: 0
+  unlocked: 0
+  requiredActiveSkills:
+  - {fileID: 7245157560871375353}
+  - {fileID: 7003549711857410916}
+  - {fileID: 1700881138793698852}
+  - {fileID: 1459636303227775363}
+  - {fileID: 437545324527592896}
+  requiredPassiveSkills:
+  - {fileID: 6207089556058051339}
+  mainPhysDmgIncrease: 0
+  mainMagicDmgIncrease: 10
+  mainPhysDefIncrease: 0
+  mainMagicDefIncrease: 30
+  escapeChanceIncrease: 0
+  unlockChestChanceIncrease: 0
+  addDmgToPhysDmgPerMove: 0
+  addDmgToMagicDmgPerMove: 2
+  unlockSpecialWarriorSkill: 0
+  unlockSpecialWizardSkill: 0
+  unlockSpecialThiefSkill: 0
+--- !u!1 &2876821248526494577
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7687090492560820396}
+  - component: {fileID: 2954716740121650460}
+  - component: {fileID: 8564995865259097045}
+  m_Layer: 0
+  m_Name: MasterThief
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7687090492560820396
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2876821248526494577}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629792435488053238}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2954716740121650460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2876821248526494577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e27c7bad9c9764b9debf3aa3ef3947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u041C\u0430\u0441\u0442\u0435\u0440 \u0432\u043E\u0440"
+  description: "\n\u0413\u043E\u0432\u043E\u0440\u044F\u0442, \u0447\u0442\u043E
+    \u0442\u043E\u043B\u044C\u043A\u043E \u0438\u0441\u0442\u0438\u043D\u043D\u044B\u0439
+    \u0432\u043E\u0440 \u0441\u043F\u043E\u0441\u043E\u0431\u0435\u043D \u0434\u043E\u0441\u0442\u0438\u0447\u044C
+    \u044D\u0442\u043E\u0439 \u0441\u0442\u0443\u043F\u0435\u043D\u0438 \u043C\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430,
+    \u043A\u043E\u0433\u0434\u0430 \u043D\u0438\u043A\u0430\u043A\u043E\u0439 \u0437\u0430\u043C\u043E\u043A
+    \u043D\u0435 \u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0441\u044F \u043F\u0440\u0435\u0433\u0440\u0430\u0434\u043E\u0439,
+    \u0430 \u043E\u0442 \u043F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A\u0430
+    \u043C\u043E\u0436\u043D\u043E \u0441 \u043B\u0451\u0433\u043A\u043E\u0441\u0442\u044C\u044E
+    \u0443\u043B\u0438\u0437\u043D\u0443\u0442\u044C.\n\n\u0415\u0441\u0442\u044C
+    \u0441\u043A\u0440\u044B\u0442\u044B\u0435 \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0435
+    \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u0438."
+  skillLevel: 0
+  type: 0
+  unlocked: 0
+  requiredActiveSkills:
+  - {fileID: 3654424672172673271}
+  requiredPassiveSkills:
+  - {fileID: 4572754249368154648}
+  ignoreDef: 1
+  physicalDamage: 30
+  magicalDamage: 0
+  HPAlteration: 0
+  MPAlteration: 0
+  physDmgIncrease: 0
+  magicDmgIncrease: 0
+  moveNumber: 5
+  designation: "\u0420\u0430\u0441\u0441\u0435\u0438\u0432\u0430\u043D\u0438\u0435"
+  physDmgPerMove: 1
+  magicDmgPerMove: 0
+  physDmgDefDecrease: 30
+  magicDmgDefDecrease: 30
+--- !u!114 &8564995865259097045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2876821248526494577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87fb96b2dbb862e4ca2ede1ceb14a699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u041C\u0430\u0441\u0442\u0435\u0440 \u0432\u043E\u0440"
+  description: 
+  skillLevel: 4
+  type: 2
+  unlocked: 0
+  requiredActiveSkills: []
+  requiredPassiveSkills: []
+  mainPhysDmgIncrease: 0
+  mainMagicDmgIncrease: 0
+  mainPhysDefIncrease: 0
+  mainMagicDefIncrease: 0
+  escapeChanceIncrease: 20
+  unlockChestChanceIncrease: 20
+  addDmgToPhysDmgPerMove: 5
+  addDmgToMagicDmgPerMove: 0
+  unlockSpecialWarriorSkill: 0
+  unlockSpecialWizardSkill: 0
+  unlockSpecialThiefSkill: 0
+--- !u!1 &3304791944598502085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3062936269713086031}
+  - component: {fileID: 8045815781362265713}
+  m_Layer: 0
+  m_Name: DeadDefence
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3062936269713086031
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3304791944598502085}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629792435488053238}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8045815781362265713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3304791944598502085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87fb96b2dbb862e4ca2ede1ceb14a699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u0413\u043B\u0443\u0445\u0430\u044F \u043E\u0431\u043E\u0440\u043E\u043D\u0430"
+  description: "\n\u0425\u043E\u0442\u044C \u0442\u044B \u0438 \u0432\u043E\u0438\u043D,
+    \u043E\u0441\u043D\u043E\u0432\u043D\u043E\u0435 \u043E\u0440\u0443\u0436\u0438\u0435
+    \u043A\u043E\u0442\u043E\u0440\u043E\u0433\u043E \u2014 \u043C\u0435\u0447, \u043D\u0435
+    \u0441\u0442\u043E\u0438\u0442 \u0437\u0430\u0431\u044B\u0432\u0430\u0442\u044C
+    \u0438 \u043E \u0437\u0430\u0449\u0438\u0442\u0435. \u0412\u0435\u0434\u044C
+    \u0438\u043D\u0430\u0447\u0435, \u0437\u0430\u0447\u0435\u043C \u0442\u0435\u0431\u0435
+    \u0432\u043E\u043E\u0431\u0449\u0435 \u043D\u0443\u0436\u0435\u043D \u044D\u0442\u043E\u0442
+    \u0449\u0438\u0442."
+  skillLevel: 2
+  type: 1
+  unlocked: 0
+  requiredActiveSkills: []
+  requiredPassiveSkills:
+  - {fileID: 3359214150342960568}
+  mainPhysDmgIncrease: 0
+  mainMagicDmgIncrease: 0
+  mainPhysDefIncrease: 40
+  mainMagicDefIncrease: 20
+  escapeChanceIncrease: 0
+  unlockChestChanceIncrease: 0
+  addDmgToPhysDmgPerMove: 0
+  addDmgToMagicDmgPerMove: 0
+  unlockSpecialWarriorSkill: 0
+  unlockSpecialWizardSkill: 0
+  unlockSpecialThiefSkill: 0
+--- !u!1 &3358225201671616918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1945050119780522856}
+  - component: {fileID: 3115263872728634628}
+  m_Layer: 0
+  m_Name: EnchantedWeapon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1945050119780522856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3358225201671616918}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629792435488053238}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3115263872728634628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3358225201671616918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87fb96b2dbb862e4ca2ede1ceb14a699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u0417\u0430\u0447\u0430\u0440\u043E\u0432\u0430\u043D\u043D\u043E\u0435
+    \u041E\u0440\u0443\u0436\u0438\u0435"
+  description: "\n\u041E, \u0447\u0442\u043E \u044D\u0442\u043E \u043D\u0430\u0447\u0430\u043B\u043E
+    \u0441\u0432\u0435\u0440\u043A\u0430\u0442\u044C \u0432\u043E\u043A\u0440\u0443\u0433
+    \u0442\u0432\u043E\u0435\u0433\u043E \u043E\u0440\u0443\u0436\u0438\u044F? \u0427\u0442\u043E
+    \u0437\u0430 \u0431\u043B\u0451\u0441\u0442\u043A\u0438? \u041C\u043E\u0436\u0435\u0442
+    \u0442\u0435\u043F\u0435\u0440\u044C \u0438 \u0443\u0434\u0430\u0440\u044B \u0431\u0443\u0434\u0443\u0442
+    \u0441\u0438\u043B\u044C\u043D\u0435\u0435?"
+  skillLevel: 2
+  type: 0
+  unlocked: 0
+  requiredActiveSkills: []
+  requiredPassiveSkills:
+  - {fileID: 4665546095996442587}
+  mainPhysDmgIncrease: 0
+  mainMagicDmgIncrease: 0
+  mainPhysDefIncrease: 4
+  mainMagicDefIncrease: 5
+  escapeChanceIncrease: 0
+  unlockChestChanceIncrease: 0
+  addDmgToPhysDmgPerMove: 0
+  addDmgToMagicDmgPerMove: 0
+  unlockSpecialWarriorSkill: 0
+  unlockSpecialWizardSkill: 0
+  unlockSpecialThiefSkill: 0
+--- !u!1 &3710829565447708781
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4633528015718724327}
+  - component: {fileID: 437545324527592896}
+  m_Layer: 0
+  m_Name: BloodMagic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4633528015718724327
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3710829565447708781}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629792435488053238}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &437545324527592896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3710829565447708781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e27c7bad9c9764b9debf3aa3ef3947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u041C\u0430\u0433\u0438\u044F \u041A\u0440\u043E\u0432\u0438"
+  description: "\n\u042D\u0442\u043E \u043C\u0430\u0433\u0438\u044F \u0434\u043E\u0432\u043E\u043B\u044C\u043D\u043E
+    \u0442\u0430\u043A\u0438 \u043F\u043E\u043B\u0435\u0437\u043D\u0430\u044F \u0438
+    \u0437\u0430\u043D\u044F\u0442\u043D\u0430\u044F, \u043E\u0434\u043D\u0430\u043A\u043E
+    \u043F\u0440\u0438 \u043F\u0440\u0438\u043C\u0435\u043D\u0435\u043D\u0438\u0435
+    \u043C\u043E\u0436\u043D\u043E \u0443\u043C\u0435\u0440\u0435\u0442\u044C, \u043D\u0443
+    \u0438\u043B\u0438 \u0442\u043E\u0433\u043E \u0445\u0443\u0436\u0435 \u043F\u0440\u0438\u0437\u0432\u0430\u0442\u044C
+    \u043A\u0430\u043A\u043E\u0433\u043E-\u043D\u0438\u0431\u0443\u0434\u044C \u041A\u0442\u0443\u043B\u0445\u0443."
+  skillLevel: 3
+  type: 0
+  unlocked: 0
+  requiredActiveSkills:
+  - {fileID: 3175448716374545138}
+  requiredPassiveSkills: []
+  ignoreDef: 0
+  physicalDamage: 0
+  magicalDamage: 0
+  HPAlteration: -20
+  MPAlteration: 20
+  physDmgIncrease: 0
+  magicDmgIncrease: 0
+  moveNumber: 0
+  designation: 
+  physDmgPerMove: 0
+  magicDmgPerMove: 0
+  physDmgDefDecrease: 0
+  magicDmgDefDecrease: 0
+--- !u!1 &4251561158356765161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2973281631014339577}
+  - component: {fileID: 6255535917168300215}
+  m_Layer: 0
+  m_Name: SmokeBombUsing
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2973281631014339577
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4251561158356765161}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629792435488053238}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6255535917168300215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4251561158356765161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87fb96b2dbb862e4ca2ede1ceb14a699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u041F\u0440\u0438\u043C\u0435\u043D\u0435\u043D\u0438\u0435 \u0414\u044B\u043C\u043E\u0432\u044B\u0445
+    \u0411\u043E\u043C\u0431"
+  description: "\n\u041D\u0438\u043A\u043E\u0433\u0434\u0430 \u043D\u0435\u043B\u044C\u0437\u044F
+    \u043F\u043E\u0437\u0432\u043E\u043B\u0438\u0442\u044C \u0441\u0435\u0431\u044F
+    \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0438\u0442\u044C, \u043E\u0434\u043D\u0430\u043A\u043E
+    \u0435\u0441\u043B\u0438 \u0442\u0430\u043A\u043E\u0435 \u0438 \u043F\u0440\u043E\u0438\u0437\u043E\u0448\u043B\u043E,
+    \u0442\u043E \u043B\u0443\u0447\u0448\u0435\u0433\u043E \u043F\u043E\u043C\u043E\u0448\u043D\u0438\u043A\u0430
+    \u0447\u0435\u043C \u0434\u044B\u043C\u043E\u0432\u0430\u044F \u0431\u043E\u043C\u0431\u0430
+    \u0442\u0435\u0431\u0435 \u043D\u0435 \u0441\u044B\u0441\u043A\u0430\u0442\u044C."
+  skillLevel: 1
+  type: 2
+  unlocked: 0
+  requiredActiveSkills: []
+  requiredPassiveSkills: []
+  mainPhysDmgIncrease: 0
+  mainMagicDmgIncrease: 0
+  mainPhysDefIncrease: 0
+  mainMagicDefIncrease: 0
+  escapeChanceIncrease: 50
+  unlockChestChanceIncrease: 0
+  addDmgToPhysDmgPerMove: 0
+  addDmgToMagicDmgPerMove: 0
+  unlockSpecialWarriorSkill: 0
+  unlockSpecialWizardSkill: 0
+  unlockSpecialThiefSkill: 0
+--- !u!1 &4541544366569982344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7740007571386066077}
+  - component: {fileID: 3654424672172673271}
+  m_Layer: 0
+  m_Name: ThrowingKnives
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7740007571386066077
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4541544366569982344}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629792435488053238}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3654424672172673271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4541544366569982344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e27c7bad9c9764b9debf3aa3ef3947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u041C\u0435\u0442\u0430\u0442\u0435\u043B\u044C\u043D\u044B\u0435
+    \u041D\u043E\u0436\u0438"
+  description: "\n\u041C\u0435\u0442\u043A\u0430\u044F \u0441\u0442\u0440\u0435\u043B\u044C\u0431\u0430
+    \u0438\u0437 \u043B\u0443\u043A\u0430 \u0435\u0449\u0451 \u043D\u0435 \u0434\u0435\u043B\u0430\u0435\u0442
+    \u0442\u0435\u0431\u044F \u043F\u0440\u043E\u0444\u0435\u0441\u0441\u0438\u043E\u043D\u0430\u043B\u043E\u043C.
+    \u041F\u043E\u0440\u0430 \u043F\u043E\u0434\u043D\u044F\u0442\u0441\u044F \u043D\u0430
+    \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u0439 \u0443\u0440\u043E\u0432\u0435\u043D\u044C
+    \u0438 \u043B\u043E\u0432\u043A\u043E\u0441\u0442\u044C \u0440\u0443\u043A \u0437\u0434\u0435\u0441\u044C
+    \u0431\u0443\u0434\u0435\u0442 \u043A\u0441\u0442\u0430\u0442\u0438."
+  skillLevel: 2
+  type: 2
+  unlocked: 0
+  requiredActiveSkills:
+  - {fileID: 3691867197386669996}
+  requiredPassiveSkills: []
+  ignoreDef: 1
+  physicalDamage: 5
+  magicalDamage: 0
+  HPAlteration: 0
+  MPAlteration: 0
+  physDmgIncrease: 0
+  magicDmgIncrease: 0
+  moveNumber: 2
+  designation: "\u0417\u0430\u0441\u0442\u0440\u044F\u0432\u0448\u0438\u0439 \u043D\u043E\u0436"
+  physDmgPerMove: 5
+  magicDmgPerMove: 0
+  physDmgDefDecrease: 0
+  magicDmgDefDecrease: 0
+--- !u!1 &4544355157737699763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8248886184603099551}
+  - component: {fileID: 8078108740088773704}
+  m_Layer: 0
+  m_Name: BattleMedicine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8248886184603099551
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4544355157737699763}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629792435488053238}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8078108740088773704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4544355157737699763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e27c7bad9c9764b9debf3aa3ef3947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u0411\u043E\u0435\u0432\u0430\u044F \u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0430"
+  description: "\n\u0427\u0442\u043E\u0431\u044B \u0432\u044B\u0438\u0433\u0440\u0430\u0442\u044C
+    \u0443\u0436\u0435 \u043D\u0435 \u043E\u0447\u0435\u043D\u044C \u0443\u0441\u043F\u0435\u0448\u043D\u044B\u0439
+    \u0431\u043E\u0439 \u043D\u0443\u0436\u043D\u043E \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0430\u0442\u044C
+    \u0441\u043E\u043E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044E\u0449\u0443\u044E
+    \u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438: \u043F\u0440\u0438\u0433\u043E\u0442\u043E\u0432\u0438\u043B\u0441\u044F,
+    \u0443\u0434\u0430\u0440\u0438\u043B, \u043E\u0442\u0441\u0442\u0443\u043F\u0438\u043B
+    \u0438 \u043F\u043E\u0434\u043B\u0435\u0447\u0438\u043B\u0441\u044F."
+  skillLevel: 3
+  type: 1
+  unlocked: 0
+  requiredActiveSkills: []
+  requiredPassiveSkills: []
+  ignoreDef: 0
+  physicalDamage: 30
+  magicalDamage: 0
+  HPAlteration: 30
+  MPAlteration: 0
+  physDmgIncrease: 0
+  magicDmgIncrease: 0
+  moveNumber: 0
+  designation: 
+  physDmgPerMove: 0
+  magicDmgPerMove: 0
+  physDmgDefDecrease: 0
+  magicDmgDefDecrease: 0
+--- !u!1 &4740550250793396469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 789100670829895503}
+  - component: {fileID: 1700881138793698852}
+  m_Layer: 0
+  m_Name: WindBlow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &789100670829895503
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4740550250793396469}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629792435488053238}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1700881138793698852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4740550250793396469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e27c7bad9c9764b9debf3aa3ef3947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u041F\u043E\u0440\u044B\u0432 \u0412\u0435\u0442\u0440\u0430"
+  description: "- \u041F\u043E\u0432\u044B\u0448\u0435\u043D\u0438\u0435 \u0448\u0430\u043D\u0441\u0430
+    \u043D\u0430 \u043F\u043E\u0431\u0435\u0433: 25%\n\n\u0422\u044B \u0437\u043D\u0430\u0435\u0448\u044C
+    \u0447\u0442\u043E \u0442\u0430\u043A\u043E\u0435 \u0432\u0435\u0442\u0440\u043E\u0432\u044B\u0435
+    \u0443\u0437\u043B\u044B? \u0420\u0430\u0437\u0432\u044F\u0437\u044B\u0432\u0430\u0435\u0448\u044C
+    \u043E\u0434\u0438\u043D \u0438 \u0434\u0443\u0435\u0442 \u043B\u0451\u0433\u043A\u0438\u0439
+    \u0431\u0440\u0438\u0437, \u0440\u0430\u0437\u0432\u044F\u0437\u044B\u0432\u0430\u0435\u0448\u044C
+    \u0432\u0442\u043E\u0440\u043E\u0439 \u0438 \u0434\u0443\u0435\u0442 \u0441\u0438\u043B\u044C\u043D\u044B\u0439
+    \u0432\u0435\u0442\u0435\u0440, \u0440\u0430\u0437\u0432\u044F\u0437\u044B\u0432\u0430\u0435\u0448\u044C
+    \u0442\u0440\u0435\u0442\u0438\u0439 \u0438 \u0442\u0435\u0431\u044F \u0441\u0434\u0443\u0432\u0430\u0435\u0442
+    \u043A \u0447\u0435\u0440\u0442\u044F\u043C."
+  skillLevel: 2
+  type: 0
+  unlocked: 0
+  requiredActiveSkills: []
+  requiredPassiveSkills: []
+  ignoreDef: 0
+  physicalDamage: 0
+  magicalDamage: 1
+  HPAlteration: 0
+  MPAlteration: 0
+  physDmgIncrease: 0
+  magicDmgIncrease: 0
+  moveNumber: 3
+  designation: "\u0412\u0435\u0442\u0435\u0440 \u0432 \u043B\u0438\u0446\u043E"
+  physDmgPerMove: 0
+  magicDmgPerMove: 0
+  physDmgDefDecrease: 0
+  magicDmgDefDecrease: 25
+--- !u!1 &4828073074035265833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3254936040314731618}
+  - component: {fileID: 1459636303227775363}
+  m_Layer: 0
+  m_Name: StoneRain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3254936040314731618
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4828073074035265833}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629792435488053238}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1459636303227775363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4828073074035265833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e27c7bad9c9764b9debf3aa3ef3947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u0413\u0440\u0430\u0434 \u041A\u0430\u043C\u043D\u0435\u0439"
+  description: "\n\u0427\u0442\u043E \u043C\u043E\u0436\u0435\u0442 \u0431\u044B\u0442\u044C
+    \u043B\u0443\u0447\u0448\u0435, \u0447\u0435\u043C \u043F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A\u0443
+    \u0441\u0430\u043F\u043E\u0433\u043E\u043C \u043F\u043E \u0431\u0430\u0448\u043A\u0435?
+    \u041F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u043E, \u043A\u0430\u043C\u043D\u0435\u043C
+    \u043F\u043E \u0431\u0430\u0448\u043A\u0435. \u0410 \u0447\u0442\u043E \u043C\u043E\u0436\u0435\u0442
+    \u0431\u044B\u0442\u044C \u0435\u0449\u0451 \u043B\u0443\u0447\u0448\u0435? \u041A\u043E\u043D\u0435\u0447\u043D\u043E,
+    \u043A\u0443\u0447\u0430 \u043A\u0430\u043C\u043D\u0435\u0439!!!"
+  skillLevel: 2
+  type: 0
+  unlocked: 0
+  requiredActiveSkills: []
+  requiredPassiveSkills: []
+  ignoreDef: 0
+  physicalDamage: 10
+  magicalDamage: 5
+  HPAlteration: 0
+  MPAlteration: -20
+  physDmgIncrease: 0
+  magicDmgIncrease: 0
+  moveNumber: 0
+  designation: 
+  physDmgPerMove: 0
+  magicDmgPerMove: 0
+  physDmgDefDecrease: 0
+  magicDmgDefDecrease: 0
+--- !u!1 &4983639849983064722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8015865128472333213}
+  - component: {fileID: 4665546095996442587}
+  m_Layer: 0
+  m_Name: MagicBuff
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8015865128472333213
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4983639849983064722}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629792435488053238}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4665546095996442587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4983639849983064722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87fb96b2dbb862e4ca2ede1ceb14a699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u041C\u0430\u0433\u0438\u0447\u0435\u0441\u043A\u043E\u0435 \u0423\u0441\u0438\u043B\u0435\u043D\u0438\u0435"
+  description: "\n\u041F\u043E\u0441\u0442\u0438\u0433\u0430\u044F \u0430\u0437\u044B
+    \u043C\u0430\u0433\u0438\u0438, \u0442\u044B \u043D\u0430\u043A\u043E\u043D\u0435\u0446-\u0442\u043E
+    \u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0448\u044C\u0441\u044F \u0443\u043C\u043D\u0435\u0435.
+    \u0418 \u0442\u0435\u043F\u0435\u0440\u044C \u0442\u0432\u043E\u0438 \u0437\u0430\u043A\u043B\u0438\u043D\u0430\u043D\u0438\u044F
+    \u043D\u0430\u043D\u043E\u0441\u044F\u0442 \u0447\u0443\u0442\u044C \u0431\u043E\u043B\u044C\u0448\u0435
+    \u043C\u0430\u0433\u0438\u0447\u0435\u0441\u043A\u043E\u0433\u043E \u0443\u0440\u043E\u043D\u0430."
+  skillLevel: 1
+  type: 0
+  unlocked: 0
+  requiredActiveSkills: []
+  requiredPassiveSkills: []
+  mainPhysDmgIncrease: 0
+  mainMagicDmgIncrease: 2
+  mainPhysDefIncrease: 0
+  mainMagicDefIncrease: 0
+  escapeChanceIncrease: 0
+  unlockChestChanceIncrease: 0
+  addDmgToPhysDmgPerMove: 0
+  addDmgToMagicDmgPerMove: 0
+  unlockSpecialWarriorSkill: 0
+  unlockSpecialWizardSkill: 0
+  unlockSpecialThiefSkill: 0
+--- !u!1 &5200062989212927434
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2874202851041159310}
+  - component: {fileID: 6207089556058051339}
+  m_Layer: 0
+  m_Name: CurseOfShadowAndLight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2874202851041159310
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5200062989212927434}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629792435488053238}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6207089556058051339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5200062989212927434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87fb96b2dbb862e4ca2ede1ceb14a699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u041F\u0440\u043E\u043A\u043B\u044F\u0442\u044C\u0435 \u0421\u0432\u0435\u0442\u0430
+    \u0438 \u0422\u044C\u043C\u044B"
+  description: "\u041E\u0441\u043E\u0431\u044B\u0439 \u043D\u0430\u0432\u044B\u043A.\r\n\u0421
+    \u0432\u0435\u0440\u043E\u044F\u0442\u043D\u043E\u0441\u0442\u044C\u044E 20%,
+    \u0430\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0438
+    \u0432\u043A\u043B\u044E\u0447\u0430\u0435\u0442\u0441\u044F \u043E\u0434\u0438\u043D
+    \u0440\u0430\u0437 \u0437\u0430 \u0431\u043E\u0439, \u0435\u0441\u043B\u0438
+    \u0443\u0440\u043E\u0432\u0435\u043D\u044C \u0437\u0434\u043E\u0440\u043E\u0432\u044C\u044F
+    \u043F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A\u0430 \u0443\u043F\u0430\u043B
+    \u043D\u0438\u0436\u0435 50%. \n\u041D\u0430 5 \u0445\u043E\u0434\u043E\u0432
+    \u043D\u0430\u043A\u043B\u0430\u0434\u044B\u0432\u0430\u0435\u0442 \u043D\u0430
+    \u043F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A\u0430 \xAB\u041E\u0441\u043B\u0435\u043F\u043B\u0435\u043D\u0438\u0435\xBB,
+    \u043A\u043E\u0442\u043E\u0440\u043E\u0435 \u043A\u0430\u0436\u0434\u044B\u0439
+    \u0445\u043E\u0434 \u043D\u0430\u043D\u043E\u0441\u0442\u0438 5 \u043C\u0430\u0433\u0438\u0447\u0435\u0441\u043A\u043E\u0433\u043E
+    \u0443\u0440\u043E\u043D\u0430, \u0441\u043D\u0438\u0436\u0430\u0435\u0442 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043A\u0443\u044E
+    \u0438 \u043C\u0430\u0433\u0438\u0447\u0435\u0441\u043A\u0443\u044E \u0437\u0430\u0449\u0438\u0442\u044B
+    \u043D\u0430 25%, \u0430 \u0442\u0430\u043A \u0436\u0435 \u043D\u0430 \u0441\u0442\u043E\u043B\u044C\u043A\u043E
+    \u0436\u0435 \u0443\u0432\u0435\u043B\u0438\u0447\u0438\u0432\u0430\u0435\u0442
+    \u0448\u0430\u043D\u0441 \u043F\u043E\u0431\u0435\u0433\u0430.\n\u041D\u0430
+    \u0433\u0435\u0440\u043E\u044F \u0436\u0435 \u043D\u0430\u043A\u043B\u0430\u0434\u044B\u0432\u0430\u0435\u0442\u0441\u044F
+    \u044D\u0444\u0444\u0435\u043A\u0442 \xAB\u041F\u0440\u043E\u043A\u043B\u044F\u0442\u0430\u044F
+    \u0442\u0435\u043D\u044C\xBB, \u043A\u043E\u0442\u043E\u0440\u044B\u0439 \u0432
+    \u0442\u0435\u0447\u0435\u043D\u0438\u0435 5 \u0445\u043E\u0434\u043E\u0432 \u043D\u0430\u043D\u043E\u0441\u0438\u0442
+    \u043F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A\u0443 \u0442\u043E\u0442
+    \u0436\u0435 \u0443\u0440\u043E\u043D, \u0447\u0442\u043E \u043F\u043E\u043B\u0443\u0447\u0430\u0435\u0442
+    \u0433\u0435\u0440\u043E\u0439.\n\n\u0421\u0432\u0435\u0442 \u0438 \u0442\u044C\u043C\u0430,
+    \u0447\u0442\u043E \u043C\u043E\u0436\u0435\u0442 \u0431\u044B\u0442\u044C \u043E\u0431\u0449\u0435\u0433\u043E
+    \u0443 \u044D\u0442\u0438\u0445 \u043F\u0440\u043E\u0442\u0438\u0432\u043E\u043F\u043E\u043B\u043E\u0436\u043D\u043E\u0441\u0442\u0435\u0439?
+    \u041E\u0434\u043D\u0430\u043A\u043E, \u043A\u0430\u043A \u043D\u0438 \u0441\u0442\u0440\u0430\u043D\u043D\u043E,
+    \u0432 \u044D\u0442\u043E\u043C \u0437\u0430\u043A\u043B\u0438\u043D\u0430\u043D\u0438\u0438
+    \u043E\u043D\u0438 \u0445\u043E\u0440\u043E\u0448\u043E \u0441\u043E\u0447\u0435\u0442\u0430\u044E\u0442\u0441\u044F."
+  skillLevel: 3
+  type: 0
+  unlocked: 0
+  requiredActiveSkills: []
+  requiredPassiveSkills: []
+  mainPhysDmgIncrease: 0
+  mainMagicDmgIncrease: 0
+  mainPhysDefIncrease: 0
+  mainMagicDefIncrease: 0
+  escapeChanceIncrease: 0
+  unlockChestChanceIncrease: 0
+  addDmgToPhysDmgPerMove: 0
+  addDmgToMagicDmgPerMove: 0
+  unlockSpecialWarriorSkill: 0
+  unlockSpecialWizardSkill: 1
+  unlockSpecialThiefSkill: 0
+--- !u!1 &5210365040955737641
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 98390645025274842}
+  - component: {fileID: 754660653135429173}
+  m_Layer: 0
+  m_Name: Rage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &98390645025274842
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5210365040955737641}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629792435488053238}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &754660653135429173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5210365040955737641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87fb96b2dbb862e4ca2ede1ceb14a699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u042F\u0440\u043E\u0441\u0442\u044C"
+  description: "\u041E\u0441\u043E\u0431\u044B\u0439 \u043D\u0430\u0432\u044B\u043A.\r\n\u0410\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0438
+    \u0432\u043A\u043B\u044E\u0447\u0430\u0435\u0442\u0441\u044F \u043E\u0434\u0438\u043D
+    \u0440\u0430\u0437 \u0437\u0430 \u0431\u043E\u0439, \u0435\u0441\u043B\u0438
+    \u0443\u0440\u043E\u0432\u0435\u043D\u044C \u0437\u0434\u043E\u0440\u043E\u0432\u044C\u044F
+    \u0443\u043F\u0430\u043B \u043D\u0438\u0436\u0435 25%. \n\u041F\u043E\u0432\u044B\u0448\u0430\u0435\u0442
+    \u043D\u0430 75% \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u0439 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+    \u0443\u0440\u043E\u043D \u043D\u0430\u043D\u0435\u0441\u0451\u043D\u043D\u044B\u0439
+    \u0432\u0440\u0430\u0433\u0443.\r\n\u041F\u043E\u0432\u044B\u0448\u0430\u0435\u0442
+    \u043D\u0430 35% \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043A\u0443\u044E
+    \u0437\u0430\u0449\u0438\u0442\u0443 \u043D\u0430 \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u0435
+    5 \u0445\u043E\u0434\u043E\u0432.\r\n\n\u0412\u0441\u043F\u043E\u043C\u043D\u0438
+    \u0433\u043D\u0435\u0432 \u043E\u0442 \u0443\u0442\u0440\u0430\u0442\u044B \u0434\u043E\u0440\u043E\u0433\u043E\u0433\u043E
+    \u0447\u0435\u043B\u043E\u0432\u0435\u043A\u0430, \u043E\u0442 \u0440\u0430\u043D
+    \u0438 \u0443\u0448\u0438\u0431\u043E\u0432, \u0438 \u0432\u043B\u043E\u0436\u0438
+    \u0432\u0441\u0435 \u044D\u0442\u0438 \u044D\u043C\u043E\u0446\u0438\u0438 \u0432
+    \u0441\u0432\u043E\u0439 \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u0439
+    \u0443\u0434\u0430\u0440. \u0414\u0430 \u0438 \u0430\u0434\u0440\u0435\u043D\u0430\u043B\u0438\u043D
+    \u0442\u0435\u0431\u0435 \u043F\u043E\u043C\u043E\u0436\u0435\u0442."
+  skillLevel: 3
+  type: 1
+  unlocked: 0
+  requiredActiveSkills:
+  - {fileID: 4441034909559980313}
+  requiredPassiveSkills: []
+  mainPhysDmgIncrease: 0
+  mainMagicDmgIncrease: 0
+  mainPhysDefIncrease: 0
+  mainMagicDefIncrease: 0
+  escapeChanceIncrease: 0
+  unlockChestChanceIncrease: 0
+  addDmgToPhysDmgPerMove: 0
+  addDmgToMagicDmgPerMove: 0
+  unlockSpecialWarriorSkill: 1
+  unlockSpecialWizardSkill: 0
+  unlockSpecialThiefSkill: 0
+--- !u!1 &5642830748854164624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2169410652144104994}
+  - component: {fileID: 5251715114234686594}
+  m_Layer: 0
+  m_Name: Unlocking
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2169410652144104994
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5642830748854164624}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629792435488053238}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5251715114234686594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5642830748854164624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87fb96b2dbb862e4ca2ede1ceb14a699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u0412\u0437\u043B\u043E\u043C"
+  description: "\n\u0425\u0432\u0430\u0442\u0438\u0442 \u0443\u0436\u0435 \u043B\u043E\u043C\u0430\u0442\u044C
+    \u043E\u0442\u043C\u044B\u0442\u0447\u043A\u0438 \u0432 \u0442\u0449\u0435\u0442\u043D\u044B\u0445
+    \u043F\u043E\u043F\u044B\u0442\u043A\u0430\u0445 \u043E\u0442\u043A\u0440\u044B\u0442\u044C
+    \u043E\u0447\u0435\u0440\u0435\u0434\u043D\u043E\u0439 \u0441\u0443\u043D\u0434\u0443\u043A,
+    \u043F\u043E\u0440\u0430 \u0432\u0437\u044F\u0442\u044C\u0441\u044F \u0437\u0430
+    \u0434\u0435\u043B\u043E \u0432\u0441\u0435\u0440\u044C\u0451\u0437."
+  skillLevel: 1
+  type: 2
+  unlocked: 0
+  requiredActiveSkills: []
+  requiredPassiveSkills: []
+  mainPhysDmgIncrease: 0
+  mainMagicDmgIncrease: 0
+  mainPhysDefIncrease: 0
+  mainMagicDefIncrease: 0
+  escapeChanceIncrease: 0
+  unlockChestChanceIncrease: 25
+  addDmgToPhysDmgPerMove: 0
+  addDmgToMagicDmgPerMove: 0
+  unlockSpecialWarriorSkill: 0
+  unlockSpecialWizardSkill: 0
+  unlockSpecialThiefSkill: 0
+--- !u!1 &5731516710367643367
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8277122505213693483}
+  - component: {fileID: 7003549711857410916}
+  m_Layer: 0
+  m_Name: Fireball
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8277122505213693483
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5731516710367643367}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629792435488053238}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7003549711857410916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5731516710367643367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e27c7bad9c9764b9debf3aa3ef3947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u0424\u0430\u0439\u0435\u0440\u0431\u043E\u043B"
+  description: "\n\u0424\u0430\u0439\u0435\u0440\u0431\u043E\u043B \u043E\u043D \u0438
+    \u0432 \u042D\u0433\u0445\u0430\u043B\u0435 \u0444\u0430\u0439\u0435\u0440\u0431\u043E\u043B.
+    \u041F\u0440\u043E\u0441\u0442\u043E \u043E\u0433\u043D\u0435\u043D\u043D\u044B\u0439
+    \u0448\u0430\u0440, \u0447\u0442\u043E \u0435\u0449\u0451 \u043D\u0443\u0436\u043D\u043E.
+    \u0411\u0435\u0440\u0451\u0448\u044C \u043A\u0438\u0434\u0430\u0435\u0448\u044C
+    \u0432\u043E \u0432\u0440\u0430\u0433\u0430, \u0438 \u0441\u043C\u043E\u0442\u0440\u0438\u0448\u044C
+    \u043D\u0430 \u0445\u043E\u0440\u043E\u0448\u0438\u0439 \u0442\u0430\u043A\u043E\u0439
+    \u043A\u043E\u0441\u0442\u0451\u0440."
+  skillLevel: 1
+  type: 0
+  unlocked: 0
+  requiredActiveSkills: []
+  requiredPassiveSkills: []
+  ignoreDef: 0
+  physicalDamage: 0
+  magicalDamage: 10
+  HPAlteration: 0
+  MPAlteration: -10
+  physDmgIncrease: 0
+  magicDmgIncrease: 0
+  moveNumber: 4
+  designation: "\u0412\u043E\u0441\u043F\u043B\u0430\u043C\u0435\u043D\u0435\u043D\u0438\u0435"
+  physDmgPerMove: 0
+  magicDmgPerMove: 2
+  physDmgDefDecrease: 0
+  magicDmgDefDecrease: 0
+--- !u!1 &6348100750363811812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2371157204526007432}
+  - component: {fileID: 4411632319578767364}
+  m_Layer: 0
+  m_Name: Slash
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2371157204526007432
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6348100750363811812}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629792435488053238}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4411632319578767364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6348100750363811812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e27c7bad9c9764b9debf3aa3ef3947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u0420\u0443\u0431\u044F\u0449\u0438\u0439 \u0423\u0434\u0430\u0440"
+  description: "\n\u0421\u0432\u0435\u0440\u0445\u0443-\u0432\u043D\u0438\u0437.
+    \u0421\u043D\u0438\u0437\u0443-\u0432\u0432\u0435\u0440\u0445. \u0421\u043B\u0435\u0432\u0430-\u043D\u0430\u043F\u0440\u0430\u0432\u043E.
+    \u0421\u043F\u0440\u0430\u0432\u0430-\u043D\u0430\u043B\u0435\u0432\u043E. \u041D\u0443
+    \u0438\u043B\u0438 \u043F\u043E\u0434 \u0434\u0440\u0443\u0433\u0438\u043C \u043D\u0435\u0432\u0435\u0434\u043E\u043C\u044B\u043C
+    \u0443\u0433\u043B\u043E\u043C. \u0415\u0441\u0442\u044C \u043C\u043D\u043E\u0433\u043E
+    \u0441\u043F\u043E\u0441\u043E\u0431\u043E\u0432 \u0440\u0430\u0437\u0440\u0443\u0431\u0438\u0442\u044C
+    \u0432\u0440\u0430\u0433\u0430."
+  skillLevel: 1
+  type: 1
+  unlocked: 0
+  requiredActiveSkills: []
+  requiredPassiveSkills: []
+  ignoreDef: 0
+  physicalDamage: 20
+  magicalDamage: 0
+  HPAlteration: 0
+  MPAlteration: 0
+  physDmgIncrease: 0
+  magicDmgIncrease: 0
+  moveNumber: 0
+  designation: 
+  physDmgPerMove: 0
+  magicDmgPerMove: 0
+  physDmgDefDecrease: 0
+  magicDmgDefDecrease: 0
+--- !u!1 &7103848815590954612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4934186053144014476}
+  - component: {fileID: 7245157560871375353}
+  m_Layer: 0
+  m_Name: Freeze
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4934186053144014476
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7103848815590954612}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629792435488053238}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7245157560871375353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7103848815590954612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e27c7bad9c9764b9debf3aa3ef3947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u0417\u0430\u043C\u043E\u0440\u043E\u0437\u043A\u0430"
+  description: "- \u041F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A \u043F\u0440\u043E\u043F\u0443\u0441\u0442\u0438\u0442
+    \u0445\u043E\u0434 \u0441 \u0432\u0435\u0440\u043E\u044F\u0442\u043D\u043E\u0441\u0442\u044C\u044E
+    50%\n\n\u041E\u0441\u0442\u0443\u0434\u0438 \u0432\u0440\u0430\u0433\u0430 \u0441\u0432\u043E\u0435\u0433\u043E
+    \u0438 \u0442\u0435\u043C \u0441\u0430\u043C\u044B\u043C \u0442\u044B \u0432\u044B\u0438\u0433\u0440\u0430\u0435\u0448\u044C
+    \u0441\u0435\u0431\u0435 \u0434\u043E\u0441\u0442\u0430\u0442\u043E\u0447\u043D\u043E
+    \u0432\u0440\u0435\u043C\u0435\u043D\u0438, \u0447\u0442\u043E\u0431\u044B \u043F\u0440\u0438\u0434\u0443\u043C\u0430\u0442\u044C
+    \u0445\u043E\u0440\u043E\u0448\u0443\u044E \u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u044E
+    \u043F\u043E\u0431\u0435\u0434\u0443."
+  skillLevel: 1
+  type: 0
+  unlocked: 0
+  requiredActiveSkills: []
+  requiredPassiveSkills: []
+  ignoreDef: 0
+  physicalDamage: 0
+  magicalDamage: 1
+  HPAlteration: 0
+  MPAlteration: -10
+  physDmgIncrease: 0
+  magicDmgIncrease: 0
+  moveNumber: 2
+  designation: "\u041E\u0431\u043C\u043E\u0440\u043E\u0436\u0435\u043D\u0438\u0435"
+  physDmgPerMove: 0
+  magicDmgPerMove: 1
+  physDmgDefDecrease: 0
+  magicDmgDefDecrease: 0
+--- !u!1 &7530006139913926899
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3565703623446096518}
+  - component: {fileID: 3359214150342960568}
+  m_Layer: 0
+  m_Name: ArmorWearing
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3565703623446096518
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7530006139913926899}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629792435488053238}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3359214150342960568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7530006139913926899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87fb96b2dbb862e4ca2ede1ceb14a699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u041D\u043E\u0448\u0435\u043D\u0438\u0435 \u0411\u0440\u043E\u043D\u0438"
+  description: "\n\u0418 \u044D\u0442\u043E \u0442\u044B \u043D\u0430\u0437\u044B\u0432\u0430\u0435\u0448\u044C
+    \u0431\u0440\u043E\u043D\u0451\u0439? \u0422\u0430\u043A \u0440\u0443\u0431\u0430\u0448\u043A\u0430
+    \u043D\u0435 \u0431\u043E\u043B\u0435\u0435. \u041E\u0434\u043D\u0430\u043A\u043E
+    \u0432\u0441\u0451 \u0436\u0435 \u0437\u0430\u0449\u0438\u0442\u044B \u0443 \u043D\u0435\u0451
+    \u0431\u0443\u0434\u0435\u0442 \u043F\u043E\u0431\u043E\u043B\u044C\u0448\u0435."
+  skillLevel: 1
+  type: 1
+  unlocked: 0
+  requiredActiveSkills: []
+  requiredPassiveSkills: []
+  mainPhysDmgIncrease: 0
+  mainMagicDmgIncrease: 0
+  mainPhysDefIncrease: 10
+  mainMagicDefIncrease: 0
+  escapeChanceIncrease: 0
+  unlockChestChanceIncrease: 0
+  addDmgToPhysDmgPerMove: 0
+  addDmgToMagicDmgPerMove: 0
+  unlockSpecialWarriorSkill: 0
+  unlockSpecialWizardSkill: 0
+  unlockSpecialThiefSkill: 0
+--- !u!1 &8162629010224866063
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1820949951601896734}
+  - component: {fileID: 48895680851043677}
+  - component: {fileID: 7771315153986049933}
+  m_Layer: 0
+  m_Name: SwordArt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1820949951601896734
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8162629010224866063}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 629792435488053238}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &48895680851043677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8162629010224866063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e27c7bad9c9764b9debf3aa3ef3947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: Sword Art
+  description: "\n\u041C\u0430\u0441\u0442\u0435\u0440\u043E\u043C \u041C\u0435\u0447\u0430
+    \u0447\u0435\u043B\u043E\u0432\u0435\u043A\u0430 \u043D\u0430\u0437\u044B\u0432\u0430\u044E\u0442
+    \u043D\u0435 \u043F\u0440\u043E\u0441\u0442\u043E \u0442\u0430\u043A. \u0412\u0435\u0434\u044C
+    \u0442\u043E\u043B\u044C\u043A\u043E \u0431\u043B\u0430\u0433\u043E\u0434\u0430\u0440\u044F
+    \u0443\u0441\u0435\u0440\u0434\u043D\u044B\u043C \u0442\u0440\u0435\u043D\u0438\u0440\u043E\u0432\u043A\u0430\u043C
+    \u043C\u043E\u0436\u043D\u043E \u0434\u043E\u0431\u0438\u0442\u044C\u0441\u044F
+    \u0442\u043E\u0433\u043E \u0436\u0435 \u0443\u0440\u043E\u0432\u043D\u044F, \u0447\u0442\u043E
+    \u0438 \u043D\u0435\u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u0447\u0451\u0440\u043D\u043E\u0432\u043E\u043B\u043E\u0441\u044B\u0435
+    \u0431\u0438\u0442\u0435\u0440\u044B.\n\n\u0415\u0441\u0442\u044C \u0441\u043A\u0440\u044B\u0442\u044B\u0435
+    \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0435
+    \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u0438."
+  skillLevel: 4
+  type: 1
+  unlocked: 0
+  requiredActiveSkills:
+  - {fileID: 8078108740088773704}
+  requiredPassiveSkills:
+  - {fileID: 754660653135429173}
+  - {fileID: 905351620974666222}
+  ignoreDef: 0
+  physicalDamage: 50
+  magicalDamage: 0
+  HPAlteration: 0
+  MPAlteration: 0
+  physDmgIncrease: 0
+  magicDmgIncrease: 0
+  moveNumber: 10
+  designation: "\u041C\u043D\u043E\u0436\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0435
+    \u0440\u0430\u043D\u0435\u043D\u0438\u044F"
+  physDmgPerMove: 3
+  magicDmgPerMove: 0
+  physDmgDefDecrease: 15
+  magicDmgDefDecrease: 0
+--- !u!114 &7771315153986049933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8162629010224866063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87fb96b2dbb862e4ca2ede1ceb14a699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: Sword Art
+  description: 
+  skillLevel: 0
+  type: 0
+  unlocked: 0
+  requiredActiveSkills: []
+  requiredPassiveSkills: []
+  mainPhysDmgIncrease: 20
+  mainMagicDmgIncrease: 0
+  mainPhysDefIncrease: 10
+  mainMagicDefIncrease: 0
+  escapeChanceIncrease: 0
+  unlockChestChanceIncrease: 0
+  addDmgToPhysDmgPerMove: 0
+  addDmgToMagicDmgPerMove: 0
+  unlockSpecialWarriorSkill: 0
+  unlockSpecialWizardSkill: 0
+  unlockSpecialThiefSkill: 0
+--- !u!1 &8196985591752268384
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 629792435488053238}
+  m_Layer: 0
+  m_Name: SkillList
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &629792435488053238
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8196985591752268384}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.926644, y: 2.926644, z: 2.926644}
+  m_Children:
+  - {fileID: 4934186053144014476}
+  - {fileID: 8277122505213693483}
+  - {fileID: 8015865128472333213}
+  - {fileID: 3076431501072326244}
+  - {fileID: 789100670829895503}
+  - {fileID: 3254936040314731618}
+  - {fileID: 6565714790087494593}
+  - {fileID: 1945050119780522856}
+  - {fileID: 2874202851041159310}
+  - {fileID: 4633528015718724327}
+  - {fileID: 1800445548236338901}
+  - {fileID: 2673765296411560843}
+  - {fileID: 2371157204526007432}
+  - {fileID: 3565703623446096518}
+  - {fileID: 6854804807021761374}
+  - {fileID: 3062936269713086031}
+  - {fileID: 8248886184603099551}
+  - {fileID: 98390645025274842}
+  - {fileID: 1820949951601896734}
+  - {fileID: 2973281631014339577}
+  - {fileID: 2169410652144104994}
+  - {fileID: 5823430429095635899}
+  - {fileID: 6525979415118110738}
+  - {fileID: 7740007571386066077}
+  - {fileID: 8529502685667315340}
+  - {fileID: 7687090492560820396}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
